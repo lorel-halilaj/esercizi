@@ -1,0 +1,42 @@
+/* Tutti i paragrafi colorati di blu */
+p {
+    color: darkblue;
+}
+
+
+/* Tutti gli elementi con classe testo-rosso */
+.testo-rosso {
+    color: red;
+}
+
+/* L'elemento con id sez-2 */
+#sez-2 {
+    color: purple
+}
+
+/* Tutti gli elementi di tipo a che hanno la classe testo-rosso */
+a.testo-rosso {
+    font-weight: bold;
+    color: brown
+}
+
+/* Tutti gli elementi di tipo a che hanno SIA la classe testo-rosso CHE la classe testo-marrone */
+a.testo-rosso.testo-marrone {
+    font-weight: bold;
+    color: darkred;
+}
+
+/* Tutti gli elementi di tipo a racchiusi all'interno di un paragrafo di classe testo-principale */
+p.testo-principale a {
+    color: orange;
+}
+
+/* Tutti gli elementi figli diretti di un paragrafo + selettore jolly (tutti tipi di classe, id) */
+p > * {
+    color: green;
+}
+
+/* Seleziona l'elemento di tipo a su cui l'utente ha il mouse */
+a:hover {
+    color: lime;
+}
